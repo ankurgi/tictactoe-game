@@ -1,11 +1,11 @@
-import './styles.scss';
-import Board from './components/Board'
-function App()
-{
-  return{
-    <div classname = "app"> 
-    <Board/>
+import "./Components/Styles.scss";
+import Board from "./Components/Board";
+function App() {
+  return (
+    <div className="app">
+      <Board />
     </div>
-  };
+  );
 }
-  export default App;
+
+export default App;
